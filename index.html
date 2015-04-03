@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDP_KqAxN13UUd0ql-BoW2h-LsvA1RkOlE"></script>
+        <script type="text/javascript" src="js/contacts.js"></script>
+        <script type="text/javascript" src="js/gelocation.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <title>Cordova App</title>
+    </head>
+    <body>
+        <div class="app">
+            <header class="apptitle">
+                
+            </header>
+        </div>
+       <nav>
+<ul class="tabs">
+    <li class="tab" id="two"><a href="#two" data-role="pagelink" class="active" id="activetab">Location</a></li>
+    <li class="tab" id="three"><a href="#three" data-role="pagelink" class="" id="">Contacts</a></li>
+</ul>
+</nav>
+    
+<section data-role="page" id="two" class="active">
+  <div data-role="content">
+    <h3>Locations</h3>
+    <p>Your location should be showing up in a Google Maps format.</p>
+      <div id="twomap">
+      
+      </div>
+      <p id="twolat"></p>
+  </div>
+</section>
+
+<section data-role="page" id="three" class="">
+  <div data-role="content">
+    <h3>Contacts</h3>
+        <ul id="contactsList"> 
+        </ul>
+    
+  </div>
+</section>
+        
+  <!--  <div data-role="overlay">&nbsp;</div>
+        
+        <div data-role="modal">
+            <h3>Modal Window Title</h3>
+                <form>
+                    <div class="formBox">
+                    
+                    </div>
+                    
+      <div class="formBox">
+        <input type="button" id="btnCancel" value="Cancel" class="btn"/>
+        
+      </div>
+    </form>
+  </div>
+</div>-->
+        
+    </body>
+</html>
